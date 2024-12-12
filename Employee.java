@@ -30,4 +30,11 @@ public class Employee {
     public int getemployeeID(){
         return employeeID;
     }
+
+    public void employeeSummary(){
+        System.out.println("First Name: " + this.firstName);
+        System.out.println("Last Name: " + this.lastName);
+        System.out.println("EmployeeID: " + this.employeeID);
+        System.out.println("Salary: $" + this.salary);
+    }
 }
